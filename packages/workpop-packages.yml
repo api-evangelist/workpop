@@ -1,0 +1,104 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=workpop
+note: >-
+  Workpop (hourly-workforce hiring platform, Santa Monica CA) was acquired by
+  Cornerstone OnDemand in 2018 and the product was shut down. These are the
+  first-party npm packages its engineering team published under the @workpop
+  scope (2016-2019). They are internal engineering utilities (Redux/GraphQL/
+  logging tooling), NOT client SDKs for a public API — Workpop never published
+  a public API. All packages are unmaintained; the company's GitHub org no
+  longer exists (github.com/Workpop returns 404).
+packages:
+  - language: javascript
+    registry: npm
+    name: "@workpop/eslint-config-workpop"
+    url: https://www.npmjs.com/package/@workpop/eslint-config-workpop
+    install: npm install @workpop/eslint-config-workpop
+    official: true
+    latest: 1.1.0
+    last_publish: '2019-06-17'
+    description: Workpop's ESLint Config
+  - language: javascript
+    registry: npm
+    name: "@workpop/simple-logger"
+    url: https://www.npmjs.com/package/@workpop/simple-logger
+    install: npm install @workpop/simple-logger
+    official: true
+    latest: 1.4.1
+    last_publish: '2019-06-21'
+    description: Simple console logger
+  - language: javascript
+    registry: npm
+    name: "@workpop/graphql-proxy"
+    url: https://www.npmjs.com/package/@workpop/graphql-proxy
+    install: npm install @workpop/graphql-proxy
+    official: true
+    latest: 2.4.0
+    last_publish: '2018-07-30'
+    description: A simple way to stitch GraphQL micro-services together
+  - language: javascript
+    registry: npm
+    name: "@workpop/graphql-metrics"
+    url: https://www.npmjs.com/package/@workpop/graphql-metrics
+    install: npm install @workpop/graphql-metrics
+    official: true
+    latest: 0.4.0
+    last_publish: '2018-07-30'
+    description: Collection of GraphQL Metric Utils
+  - language: javascript
+    registry: npm
+    name: "@workpop/graphql-mock-directive"
+    url: https://www.npmjs.com/package/@workpop/graphql-mock-directive
+    official: true
+    latest: 0.1.1
+    last_publish: '2018-05-13'
+    description: GraphQL mock consolidation directive
+  - language: javascript
+    registry: npm
+    name: "@workpop/dux"
+    url: https://www.npmjs.com/package/@workpop/dux
+    official: true
+    latest: 2.1.3
+    last_publish: '2018-05-01'
+    description: HOC Redux Functions
+  - language: javascript
+    registry: npm
+    name: "@workpop/optimistic-middleware"
+    url: https://www.npmjs.com/package/@workpop/optimistic-middleware
+    official: true
+    latest: 2.0.0
+    last_publish: '2016-06-22'
+    description: Optimistic Methods Middleware for Redux
+  - language: javascript
+    registry: npm
+    name: "@workpop/analytics-middleware"
+    url: https://www.npmjs.com/package/@workpop/analytics-middleware
+    official: true
+    latest: 0.0.1
+    last_publish: '2016-06-20'
+    description: Redux middleware for Workpop Analytics
+  - language: javascript
+    registry: npm
+    name: "@workpop/redux-tracer"
+    url: https://www.npmjs.com/package/@workpop/redux-tracer
+    official: true
+    latest: 0.1.2
+    last_publish: '2017-07-18'
+    description: Create New Relic Tracers and bind them to React Components
+  - language: javascript
+    registry: npm
+    name: "@workpop/fiberware"
+    url: https://www.npmjs.com/package/@workpop/fiberware
+    official: true
+    latest: 0.0.3
+    last_publish: '2016-09-02'
+    description: Middleware for express.js to ensure route handlers run in a Fiber
+  - language: javascript
+    registry: npm
+    name: "@workpop/us-city-reverse-geocode"
+    url: https://www.npmjs.com/package/@workpop/us-city-reverse-geocode
+    official: true
+    latest: 1.0.1
+    last_publish: '2016-08-11'
+    description: Find closest US city given a lat/lon

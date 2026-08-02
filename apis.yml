@@ -1,8 +1,24 @@
 aid: workpop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workpop.png
 name: Workpop
-description: Workpop is a company surfaced as a portfolio company of obvious-ventures, slow-ventures,
-  trinity-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a
-  lead awaiting the enrichment pipeline.
+description: Workpop was a Santa Monica, California hiring platform focused on hourly
+  workers, matching employers with job candidates. Backed by Obvious Ventures, Slow
+  Ventures, and Trinity Ventures, it was acquired by Cornerstone OnDemand in 2018
+  and the product was shut down. Workpop never published a public API; its engineering
+  team left behind twelve first-party npm packages under the @workpop scope. The
+  workpop.com domain has since lapsed and now redirects to an unrelated third-party
+  site.
 url: https://raw.githubusercontent.com/api-evangelist/workpop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +28,20 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Acquired by Cornerstone OnDemand in 2018; product shut down. workpop.com
+  no longer belongs to the company (redirects to an unrelated site), so no domain
+  or well-known probes are attributed to this profile.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Hiring
+- Human Resources
+- Recruiting
+- Hourly Workers
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,12 @@ maintainers:
 common:
 - type: Website
   url: https://workpop.com
+- type: Packages
+  url: packages/workpop-packages.yml
+- type: LLMsTxt
+  url: llms/workpop-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
