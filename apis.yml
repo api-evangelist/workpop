@@ -32,7 +32,7 @@ x-status: defunct
 x-status-note: Acquired by Cornerstone OnDemand in 2018; product shut down. workpop.com
   no longer belongs to the company (redirects to an unrelated site), so no domain
   or well-known probes are attributed to this profile.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
