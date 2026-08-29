@@ -31,6 +31,9 @@ description: Workpop was a Santa Monica, California hiring platform focused on h
   workpop.com domain has since lapsed and now redirects to an unrelated third-party
   site.
 url: https://raw.githubusercontent.com/api-evangelist/workpop/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Workpop never published a public API; its engineering team left behind twelve first-party npm packages under the @workpop scope."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
