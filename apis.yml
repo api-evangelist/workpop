@@ -63,6 +63,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/cornerstone/
+  name: Cornerstone OnDemand
+  x-relationship: acquired
+  x-evidence: "Backed by Obvious Ventures, Slow Ventures, and Trinity Ventures, it was acquired by Cornerstone OnDemand in 2018 and the product was shut down."
 - type: Website
   url: https://workpop.com
 - type: Packages
