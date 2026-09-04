@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://workpop.com', status: 301, note: 'declared website redirects to https://xoilacvab.tv/ — a different registrable domain (workpop.com -> xoilacvab.tv), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workpop.png
 name: Workpop
 description: Workpop was a Santa Monica, California hiring platform focused on hourly
